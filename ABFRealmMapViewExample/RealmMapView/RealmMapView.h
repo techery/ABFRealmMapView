@@ -16,4 +16,7 @@ FOUNDATION_EXPORT const unsigned char RealmMapViewVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <RealmMapView/PublicHeader.h>
 
-
+#import "RealmMapView/ABFClusterAnnotationView.h"
+#import "RealmMapView/ABFLocationFetchedResultsController.h"
+#import "RealmMapView/ABFLocationFetchRequest.h"
+#import "RealmMapView/ABFRealmMapView.h"
