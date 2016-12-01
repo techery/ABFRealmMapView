@@ -16,10 +16,7 @@
 		A0A087B81B28E96E007AB6B6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0A087B61B28E96E007AB6B6 /* LaunchScreen.xib */; };
 		A0A087C41B28E96E007AB6B6 /* ABFRealmMapViewExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A087C31B28E96E007AB6B6 /* ABFRealmMapViewExampleTests.m */; };
 		E2F31BAFB2E31B1463151057 /* libPods-ABFRealmMapViewExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05034151002B00773C458781 /* libPods-ABFRealmMapViewExampleTests.a */; };
-		E409CAB11DF05B63003494BA /* RBQFetchedResultsController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E428E6E61DF05123009E013A /* RBQFetchedResultsController.framework */; };
-		E409CAB21DF05B88003494BA /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E428E6E21DF04FBB009E013A /* Realm.framework */; };
-		E428E6E71DF05123009E013A /* RBQFetchedResultsController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E428E6E61DF05123009E013A /* RBQFetchedResultsController.framework */; };
-		E428E6EA1DF05528009E013A /* RBQFetchedResultsController.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E440C2611DF04F4F009987EC /* RBQFetchedResultsController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E409CABB1DF06B29003494BA /* RBQFetchedResultsController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E428E6E61DF05123009E013A /* RBQFetchedResultsController.framework */; };
 		E428EEAC1DF03939006F34CF /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = E428EEAB1DF03939006F34CF /* Cartfile */; };
 		E46281EC1DEDCEBE0017D663 /* RealmMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = E46281EA1DEDCEBE0017D663 /* RealmMapView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E46281EF1DEDCEBE0017D663 /* RealmMapView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E46281E81DEDCEBE0017D663 /* RealmMapView.framework */; };
@@ -52,16 +49,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		E428E6E91DF05463009E013A /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 12;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				E428E6EA1DF05528009E013A /* RBQFetchedResultsController.framework in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E46281F41DEDCEBE0017D663 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -117,8 +104,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E409CAB21DF05B88003494BA /* Realm.framework in Frameworks */,
-				E409CAB11DF05B63003494BA /* RBQFetchedResultsController.framework in Frameworks */,
 				E46281EF1DEDCEBE0017D663 /* RealmMapView.framework in Frameworks */,
 				71DE72A537E6A950A87B16DF /* libPods-ABFRealmMapViewExample.a in Frameworks */,
 			);
@@ -136,7 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E428E6E71DF05123009E013A /* RBQFetchedResultsController.framework in Frameworks */,
+				E409CABB1DF06B29003494BA /* RBQFetchedResultsController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,7 +310,6 @@
 				E46281E41DEDCEBE0017D663 /* Frameworks */,
 				E46281E51DEDCEBE0017D663 /* Headers */,
 				E46281E61DEDCEBE0017D663 /* Resources */,
-				E428E6E91DF05463009E013A /* CopyFiles */,
 			);
 			buildRules = (
 			);
