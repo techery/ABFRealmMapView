@@ -20,6 +20,7 @@
 		A0A087D81B28E97D007AB6B6 /* ABFLocationFetchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A087D31B28E97D007AB6B6 /* ABFLocationFetchRequest.m */; };
 		A0A087D91B28E97D007AB6B6 /* ABFRealmMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A087D51B28E97D007AB6B6 /* ABFRealmMapView.m */; };
 		E2F31BAFB2E31B1463151057 /* libPods-ABFRealmMapViewExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05034151002B00773C458781 /* libPods-ABFRealmMapViewExampleTests.a */; };
+		E428EEAC1DF03939006F34CF /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = E428EEAB1DF03939006F34CF /* Cartfile */; };
 		E46281EC1DEDCEBE0017D663 /* RealmMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = E46281EA1DEDCEBE0017D663 /* RealmMapView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E46281EF1DEDCEBE0017D663 /* RealmMapView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E46281E81DEDCEBE0017D663 /* RealmMapView.framework */; };
 		E46281F01DEDCEBE0017D663 /* RealmMapView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E46281E81DEDCEBE0017D663 /* RealmMapView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -84,6 +85,7 @@
 		A0A087D51B28E97D007AB6B6 /* ABFRealmMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABFRealmMapView.m; sourceTree = "<group>"; };
 		A18E295E55334CF29CADD434 /* Pods-ABFRealmMapViewExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABFRealmMapViewExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-ABFRealmMapViewExample/Pods-ABFRealmMapViewExample.release.xcconfig"; sourceTree = "<group>"; };
 		E2C39F210D21B2850A9D2DA4 /* Pods-ABFRealmMapViewExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABFRealmMapViewExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ABFRealmMapViewExampleTests/Pods-ABFRealmMapViewExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		E428EEAB1DF03939006F34CF /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		E46281E81DEDCEBE0017D663 /* RealmMapView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RealmMapView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E46281EA1DEDCEBE0017D663 /* RealmMapView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RealmMapView.h; sourceTree = "<group>"; };
 		E46281EB1DEDCEBE0017D663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 		A0A0879B1B28E96E007AB6B6 = {
 			isa = PBXGroup;
 			children = (
+				E428EEAB1DF03939006F34CF /* Cartfile */,
 				A0A087A61B28E96E007AB6B6 /* ABFRealmMapViewExample */,
 				A0A087C01B28E96E007AB6B6 /* ABFRealmMapViewExampleTests */,
 				E46281E91DEDCEBE0017D663 /* RealmMapView */,
@@ -350,6 +353,7 @@
 			files = (
 				A0A087B31B28E96E007AB6B6 /* Main.storyboard in Resources */,
 				A0A087B81B28E96E007AB6B6 /* LaunchScreen.xib in Resources */,
+				E428EEAC1DF03939006F34CF /* Cartfile in Resources */,
 				A0A087B51B28E96E007AB6B6 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -755,6 +759,7 @@
 				E46281F21DEDCEBE0017D663 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
